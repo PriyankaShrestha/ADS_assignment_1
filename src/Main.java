@@ -3,6 +3,11 @@ import com.sun.jdi.connect.Connector;
 
 public class Main {
     public static void main(String[] args) {
+        test test = new test();
+
+        int answer = test.mystique(4);
+        System.out.println(answer);
+
        /* BinaryTree bTree = new BinaryTree();
 
         //create root
